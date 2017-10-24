@@ -40,7 +40,19 @@ public class Practice {
         System.out.println(crotchRocket.toString());
         System.out.println(sportsCar.toString());
         //System.out.println(sportsCarTest.toString());
-        
+
+        System.out.println();
+
+        // sloppy unit testing a method for counting char in string
+        WordsAndThings count = new WordsAndThings();
+        System.out.println(count.howMany("111  11"));
+        System.out.println(count.howMany("ablcd"));
+        System.out.println(count.howMany("ASAHSH"));
+        System.out.println(count.howMany("Hello World"));
+        System.out.println(count.howMany("HelloWorld"));
+        System.out.println(count.howMany(""));
+
+
 
 
     }
